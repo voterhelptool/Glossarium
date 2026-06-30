@@ -1,7 +1,7 @@
 /* Glossarium service worker — offline app shell.
    Push notifications ("Do your BUCKING vocab!") are stubbed below; they
    activate once a Cloudflare Worker sends Web Push to saved subscriptions. */
-const CACHE = "glossarium-v25";
+const CACHE = "glossarium-v26";
 const ASSETS = [
   "./", "./index.html", "./manifest.webmanifest",
   "./buck-192.png", "./buck-512.png", "./buck-maskable-512.png", "./buck-180.png"
